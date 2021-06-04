@@ -1,11 +1,11 @@
 import { MenuEntry } from '@pancakeswap-libs/uikit'
 
 const config: MenuEntry[] = [
-  // {
-  //   label: 'Home',
-  //   icon: 'HomeIcon',
-  //   href: 'https://pancakeswap.finance/',
-  // },
+  {
+    label: 'Home',
+    icon: 'HomeIcon',
+    href: 'https://sweetswap.finance/',
+  },
   {
     label: 'Trade',
     icon: 'TradeIcon',
@@ -21,16 +21,16 @@ const config: MenuEntry[] = [
       },
     ],
   },
-  // {
-  //   label: 'Farms',
-  //   icon: 'FarmIcon',
-  //   href: 'https://pancakeswap.finance/farms',
-  // },
-  // {
-  //   label: 'Pools',
-  //   icon: 'PoolIcon',
-  //   href: 'https://pancakeswap.finance/syrup',
-  // },
+  {
+    label: 'Farms',
+    icon: 'FarmIcon',
+    href: 'https://sweetswap.finance/farms',
+  },
+  {
+    label: 'Pools',
+    icon: 'PoolIcon',
+    href: 'https://sweetswap.finance/syrup',
+  },
   // {
   //   label: 'Lottery',
   //   icon: 'TicketIcon',
@@ -87,28 +87,25 @@ const config: MenuEntry[] = [
   //   icon: 'IfoIcon',
   //   href: 'https://pancakeswap.finance/ifo',
   // },
-  // {
-  //   label: 'More',
-  //   icon: 'MoreIcon',
-  //   items: [
-  //     {
-  //       label: 'Voting',
-  //       href: 'https://voting.pancakeswap.finance',
-  //     },
-  //     {
-  //       label: 'Github',
-  //       href: 'https://github.com/pancakeswap',
-  //     },
-  //     {
-  //       label: 'Docs',
-  //       href: 'https://docs.pancakeswap.finance',
-  //     },
-  //     {
-  //       label: 'Blog',
-  //       href: 'https://pancakeswap.medium.com',
-  //     },
-  //   ],
-  // },
+  {
+    label: 'More',
+    icon: 'MoreIcon',
+    items: [
+      
+      {
+        label: 'Github',
+        href: 'https://github.com/SweetSwap',
+      },
+      {
+        label: 'Docs',
+        href: 'https://medium.com/@SweetSwap',
+      },
+      {
+        label: 'Blog',
+        href: 'https://app.gitbook.com/@sweetswapfinance/s/sweetswap/',
+      },
+    ],
+  },
 ]
 
 export default config
