@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://sweetswap.finance/',
+    href: 'https://app.sweetswap.finance/',
   },
   {
     label: 'Trade',
@@ -91,18 +91,18 @@ const config: MenuEntry[] = [
     label: 'More',
     icon: 'MoreIcon',
     items: [
-      
+
       {
         label: 'Github',
         href: 'https://github.com/SweetSwap',
       },
       {
         label: 'Docs',
-        href: 'https://medium.com/@SweetSwap',
+        href: 'https://app.gitbook.com/@sweetswapfinance/s/sweetswap/',
       },
       {
         label: 'Blog',
-        href: 'https://app.gitbook.com/@sweetswapfinance/s/sweetswap/',
+        href: 'https://medium.com/@SweetSwap',
       },
     ],
   },
