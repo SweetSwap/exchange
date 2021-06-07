@@ -24,12 +24,12 @@ const config: MenuEntry[] = [
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://sweetswap.finance/farms',
+    href: 'https://app.sweetswap.finance/farms',
   },
   {
     label: 'Pools',
     icon: 'PoolIcon',
-    href: 'https://sweetswap.finance/syrup',
+    href: 'https://app.sweetswap.finance/syrup',
   },
   // {
   //   label: 'Lottery',
